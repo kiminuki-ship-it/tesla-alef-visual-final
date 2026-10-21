@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111416">
+  <meta name="description" content="테슬라 로드스터의 공중 시연과 알레프 플라잉카의 비행, 두 차가 하늘로 향하는 방식.">
+  <title>우와! 감탄이 쏟아졌다 | 아시아경제 비주얼뉴스</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri/MaruBuri.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&family=Noto+Serif+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111416;
+      --panel: #191e20;
+      --panel2: #212729;
+      --ink: #f3f0e9;
+      --body-copy: #d2d1ca;
+      --muted: #a4aaa6;
+      --line: rgba(230, 232, 224, .15);
+      --tesla: #e82127;
+      --alef: #1e22aa;
+      --tesla-accent: #ff747a;
+      --alef-accent: #9aa6ff;
+      --tesla-soft: #ffb6ba;
+      --link: #c7ceff;
+      --serif: "Maru Buri", "Noto Serif KR", "Batang", serif;
+      --sans: "Noto Sans KR", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg); }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--serif); font-size:17px; line-height:1.95; letter-spacing:.008em; word-break: keep-all; }
+    p { color:var(--body-copy); }
+    h1, h2, h3, blockquote { color:var(--ink); }
+    a { color: inherit; }
+    button { font: inherit; }
+    .masthead { height: 52px; display:flex; justify-content:space-between; align-items:center; padding:0 5vw; border-bottom:1px solid var(--line); color:var(--ink); font-size:12px; letter-spacing:.12em; }
+    .read-progress { position:fixed; z-index:30; inset:0 0 auto; height:3px; background:rgba(255,255,255,.08); }
+    .read-progress span { display:block; width:0; height:100%; background:linear-gradient(90deg,var(--tesla),var(--alef)); box-shadow:0 0 12px rgba(154,166,255,.35); }
+    .masthead strong { font-weight:800; letter-spacing:-.04em; font-size:15px; }
+    .eyebrow { color:var(--alef-accent); text-transform:uppercase; font-size:11px; letter-spacing:.22em; font-weight:700; }
+    .hero { max-width:1120px; margin:auto; padding:clamp(30px,6vh,64px) 7vw 34px; position:relative; }
+    .hero-copy { position:relative; z-index:1; }
+    h1 { font-family:var(--serif); font-size:clamp(42px,6.2vw,78px); font-weight:600; line-height:1.4; letter-spacing:-.045em; margin:18px 0 26px; max-width:900px; }
+    h1 em { color:var(--tesla-accent); font-style:normal; }
+    .dek { max-width:620px; color:var(--body-copy); font-family:var(--serif); font-size:clamp(17px,1.6vw,22px); line-height:1.9; }
+    .byline { margin-top:32px; color:var(--muted); font-size:12px; line-height:1.8; }
+    .hero-video { position:relative; width:100%; aspect-ratio:16/9; background:#080a0b; border:1px solid var(--line); overflow:hidden; }
+    .hero-video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+    .local-video-link { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:center; gap:12px; padding:clamp(24px,6vw,76px); background:radial-gradient(ellipse at 78% 50%,rgba(232,33,39,.18),transparent 43%),linear-gradient(135deg,#1b1e20,#090a0b); color:var(--ink); text-decoration:none; }
+    .local-video-link span { color:var(--tesla-accent); font:700 11px/1.4 var(--sans); letter-spacing:.18em; }
+    .local-video-link strong { max-width:620px; font:500 clamp(23px,4vw,42px)/1.5 var(--serif); }
+    .local-video-link small { color:var(--muted); font:12px/1.7 var(--sans); }
+    .hero-video-caption { display:flex; justify-content:space-between; gap:18px; align-items:start; padding:14px 2px 0; color:var(--body-copy); font-size:14px; line-height:1.95; letter-spacing:.008em; }
+    .hero-video-caption b { color:var(--ink); font-weight:600; }
+    main { overflow:hidden; }
+    .section { max-width:1320px; margin:auto; padding:clamp(80px,12vw,160px) 7vw; }
+    .section-head { display:grid; grid-template-columns:90px minmax(0,1fr); gap:18px; align-items:start; margin-bottom:44px; }
+    .num { color:var(--alef-accent); font-size:12px; letter-spacing:.18em; padding-top:13px; }
+    h2 { font-family:var(--serif); font-size:clamp(30px,4.7vw,62px); line-height:1.55; letter-spacing:-.035em; font-weight:500; margin:0; }
+    .subhead { max-width:680px; margin:22px 0 0; color:var(--muted); line-height:2.05; font-size:17px; letter-spacing:.01em; }
+    .clips { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; max-width:930px; margin:0 auto; }
+    .clip-card { border:1px solid var(--line); background:var(--panel); min-width:0; transition:border-color .3s, transform .3s; }
+    .clip-card:hover { border-color:rgba(154,166,255,.62); transform:translateY(-3px); }
+    .clip-top { padding:19px 22px 16px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+    .clip-top h3 { margin:0; font-family:var(--serif); font-size:22px; font-weight:600; }
+    .clip-label { font-size:10px; color:var(--muted); letter-spacing:.12em; }
+    .clip-frame { position:relative; aspect-ratio:16/9; background:#080a0b; overflow:hidden; }
+    .clip-frame img, .clip-frame iframe, .clip-frame video { position:absolute; inset:0; width:100%; height:100%; border:0; object-fit:cover; }
+    .clip-frame img { opacity:.8; }
+    .play { position:absolute; inset:0; margin:auto; width:62px; height:62px; border:1px solid rgba(255,255,255,.82); border-radius:50%; background:rgba(9,12,13,.52); color:#fff; display:grid; place-items:center; cursor:pointer; transition:transform .2s,background .2s; }
+    .play::before { content:""; margin-left:4px; width:0;height:0;border-top:9px solid transparent;border-bottom:9px solid transparent;border-left:14px solid #fff; }
+    .play:hover { transform:scale(1.08); background:rgba(30,34,170,.65); }
+    .clip-caption { min-height:74px; margin:0; padding:16px 20px 22px; color:var(--body-copy); font-size:14px; line-height:2; letter-spacing:.008em; }
+    .clip-caption b { color:var(--ink); font-weight:600; }
+    .meme-wall { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:14px; }
+    .meme-tile { --meme-accent:var(--tesla-accent); position:relative; min-width:0; min-height:220px; overflow:hidden; display:flex; flex-direction:column; border:1px solid rgba(154,166,255,.2); background:linear-gradient(145deg,#242629,#17191d 76%); isolation:isolate; }
+    .meme-tile::after { content:attr(data-number); position:absolute; z-index:-1; right:12px; bottom:-49px; color:rgba(255,255,255,.045); font:800 160px/.9 var(--sans); letter-spacing:-.1em; }
+    .meme-tile:nth-child(1) { grid-column:span 7; --meme-accent:var(--tesla-accent); }
+    .meme-tile:nth-child(2) { grid-column:span 5; --meme-accent:var(--alef-accent); background:linear-gradient(145deg,#24263b,#191a20); }
+    .meme-tile:nth-child(3) { grid-column:span 4; --meme-accent:#c2a9ff; background:linear-gradient(145deg,#28243a,#171a1d); }
+    .meme-tile:nth-child(4) { grid-column:span 4; --meme-accent:#d8d9e6; }
+    .meme-tile:nth-child(5) { grid-column:span 4; --meme-accent:var(--tesla-soft); background:linear-gradient(145deg,#342226,#191a1d); }
+    .meme-tile:nth-child(6) { grid-column:span 6; --meme-accent:var(--alef-accent); background:linear-gradient(145deg,#20243a,#17191d); }
+    .meme-tile:nth-child(7) { grid-column:span 6; --meme-accent:#c7a9dc; background:linear-gradient(145deg,#2a2233,#17191d); }
+    .meme-media { position:relative; display:block; width:100%; aspect-ratio:16/10; overflow:hidden; background:#080a0b; border-bottom:1px solid rgba(255,255,255,.12); }
+    .meme-media img, .meme-media video { position:absolute; inset:0; display:block; width:100%; height:100%; object-fit:contain; background:#080a0b; }
+    .meme-media video { z-index:2; background:transparent; opacity:0; }
+    .meme-media video.is-ready { opacity:1; }
+    .meme-media .media-fallback { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#d8d8d8; font:600 15px/1.5 var(--sans); text-align:center; padding:20px; background:#151719; } 
+    .meme-media .media-fallback + img { z-index:1; }
+    .meme-copy { position:relative; z-index:1; display:flex; flex:1; flex-direction:column; justify-content:space-between; padding:22px 24px 24px; }
+    .text-meme { padding:24px; }
+    .text-meme .meme-copy { padding:0; }
+    .meme-kind { color:var(--meme-accent); font:700 10px/1.5 var(--sans); letter-spacing:.16em; text-transform:uppercase; }
+    .meme-tile h3 { max-width:620px; margin:14px 0 8px; color:var(--ink); font:500 clamp(22px,3vw,35px)/1.5 var(--serif); letter-spacing:-.03em; }
+    .meme-tile p { max-width:540px; margin:0; color:var(--body-copy); font-size:14px; line-height:1.9; }
+    .meme-tile blockquote { margin:12px 0 0; color:var(--ink); font:500 clamp(17px,2vw,23px)/1.65 var(--serif); letter-spacing:-.015em; }
+    .meme-tile cite { display:block; margin-top:14px; color:var(--muted); font:11px/1.7 var(--sans); font-style:normal; }
+    .meme-tile a { color:var(--meme-accent); text-underline-offset:3px; }
+    .meme-tile .mini-art { position:absolute; right:22px; bottom:22px; transform:none; width:72px; height:72px; border:1px solid color-mix(in srgb,var(--meme-accent),transparent 48%); border-radius:50%; display:grid; place-items:center; color:var(--meme-accent); font:800 26px/1 var(--sans); opacity:.78; }
+    .meme-tile:nth-child(3) .mini-art { border-radius:8px; width:72px; height:72px; transform:translateY(-50%) rotate(-8deg); font-size:14px; letter-spacing:.08em; }
+        .story-bridge { padding:10px 0 2px; text-align:center; }
+    .story-bridge span { color:var(--alef-accent); font-size:10px; letter-spacing:.2em; }
+    .story-bridge h3 { margin:12px 0 0; font:500 clamp(25px,4vw,43px)/1.6 var(--serif); letter-spacing:-.04em; }
+    .stat-band { background:linear-gradient(112deg,#f7e3e5 0 49.7%,#eaebfa 50.3% 100%); color:#191a22; padding:clamp(60px,8vw,108px) 7vw; }
+    .stat-inner { max-width:1320px; margin:auto; display:grid; grid-template-columns:minmax(200px,.65fr) 1.4fr; gap:6vw; align-items:center; }
+    .stat-number { font-family:var(--serif); font-weight:500; font-size:clamp(76px,14vw,190px); letter-spacing:-.09em; line-height:1; }
+    .stat-number small { font-family:var(--sans); font-size:.14em; letter-spacing:0; vertical-align:top; margin-left:10px; }
+    .stat-copy .eyebrow { color:#252f9a; }
+    .stat-copy h2 { color:#191a22; font-size:clamp(28px,4vw,52px); }
+    .stat-copy p { max-width:650px; color:#373946; font-family:var(--serif); line-height:2.1; font-size:17px; letter-spacing:.01em; margin:24px 0 0; }
+    .source-note { font:12px/1.8 var(--sans)!important; color:#4d5067; }
+    .mechanism { background:#15191b; }
+    .mechanism-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .flight-lab { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(310px,.9fr); gap:clamp(28px,6vw,82px); align-items:start; }
+    .flight-visual { --accent:var(--tesla-accent); position:sticky; top:22px; min-height:540px; display:flex; flex-direction:column; justify-content:center; padding:34px; border:1px solid var(--line); overflow:hidden; background:radial-gradient(ellipse at 50% 58%,rgba(154,166,255,.14),transparent 47%),linear-gradient(145deg,#20232e,#111416); }
+    .flight-visual[data-mode="tesla"] { background:radial-gradient(ellipse at 50% 58%,rgba(232,33,39,.16),transparent 47%),linear-gradient(145deg,#292124,#111416); }
+    .flight-visual[data-mode="alef"] { --accent:var(--alef-accent); }
+    .flight-visual-top { display:flex; justify-content:space-between; align-items:center; gap:12px; color:var(--muted); font-size:10px; letter-spacing:.16em; }
+    .flight-visual-top strong { color:var(--accent); font-size:11px; }
+    .flight-switch { display:flex; gap:8px; margin:26px 0 10px; }
+    .flight-switch button { flex:1; border:1px solid var(--line); background:transparent; color:var(--muted); padding:11px 12px; cursor:pointer; font-size:12px; transition:.2s; }
+    .flight-switch button[aria-pressed="true"] { border-color:var(--accent); color:var(--accent); background:rgba(255,255,255,.04); }
+    .flight-tour { --tour-accent:var(--tesla-accent); margin:20px 0 4px; padding:20px; border:1px solid color-mix(in srgb,var(--tour-accent),transparent 54%); background:radial-gradient(ellipse at 90% 0%,color-mix(in srgb,var(--tour-accent),transparent 84%),transparent 55%),linear-gradient(135deg,#292326,#17191d); transition:background .5s,border-color .5s; }
+    .flight-visual[data-mode="alef"] .flight-tour { --tour-accent:var(--alef-accent); background:radial-gradient(ellipse at 90% 0%,color-mix(in srgb,var(--tour-accent),transparent 82%),transparent 55%),linear-gradient(135deg,#24253a,#17191d); }
+    .tour-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+    .tour-heading span { color:var(--tour-accent); font:700 10px/1.5 var(--sans); letter-spacing:.15em; }
+    .tour-heading strong { color:var(--ink); font:500 18px/1.5 var(--serif); }
+    .tour-track { position:relative; display:flex; align-items:center; justify-content:space-between; gap:4px; margin:18px 0 13px; }
+    .tour-track::before { content:""; position:absolute; left:13px; right:13px; top:50%; height:2px; transform:translateY(-50%); background:linear-gradient(90deg,var(--tesla),var(--tesla-accent) 48%,var(--alef-accent) 52%,var(--alef)); opacity:.82; }
+    .tour-track button { position:relative; z-index:1; display:grid; place-items:center; width:27px; height:27px; padding:0; border:1px solid rgba(255,255,255,.22); border-radius:50%; background:#1a1e20; color:#bec3c0; font:700 9px/1 var(--sans); cursor:pointer; transition:transform .28s,background .28s,color .28s,box-shadow .28s; }
+    .tour-track button:nth-child(4) { margin-left:12px; }
+    .tour-track button:hover { transform:scale(1.15); }
+    .tour-track button[aria-current="step"] { transform:scale(1.24); border-color:var(--tour-accent); background:var(--tour-accent); color:#17191a; box-shadow:0 0 22px color-mix(in srgb,var(--tour-accent),transparent 30%); }
+    .tour-copy { min-height:54px; margin:0; color:var(--body-copy); font-size:13px; line-height:1.85; }
+    .tour-actions { display:flex; align-items:center; justify-content:space-between; margin-top:14px; }
+    .tour-actions span { color:var(--muted); font:10px/1.5 var(--sans); letter-spacing:.13em; }
+    .tour-actions button { border:0; background:transparent; color:var(--tour-accent); padding:8px 0; cursor:pointer; font:700 11px/1.4 var(--sans); letter-spacing:.08em; }
+    .tour-actions button:disabled { opacity:.35; cursor:default; }
+    .vehicle-shot { margin:10px 0 0; background:#090c0d; border:1px solid var(--line); }
+    .vehicle-shot img { display:block; width:100%; aspect-ratio:16/9; object-fit:contain; background:#090c0d; }
+    .vehicle-shot img { transition:transform .65s cubic-bezier(.2,.8,.2,1),opacity .24s ease; }
+    .vehicle-shot img.is-changing { animation:shot-enter .38s cubic-bezier(.2,.8,.2,1); }
+    @keyframes shot-enter { from { opacity:.35; transform:translateX(18px) scale(.985); } to { opacity:1; } }
+    .flight-visual[data-mode="tesla"][data-stage="1"] .vehicle-shot img { transform:scale(1.05) translateY(-2%); }
+    .flight-visual[data-mode="tesla"][data-stage="2"] .vehicle-shot img { transform:scale(1.08) translateY(-3%); }
+    .flight-visual[data-mode="alef"][data-stage="1"] .vehicle-shot img { transform:scale(1.07) translateY(-3%); }
+    .flight-visual[data-mode="alef"][data-stage="2"] .vehicle-shot img { transform:scale(1.1) translateY(-4%); }
+    .vehicle-shot figcaption { padding:8px 11px; color:var(--muted); font-size:10px; line-height:1.6; }
+    .vehicle-shot a { color:var(--link); text-underline-offset:2px; }
+    .flight-svg { width:100%; height:auto; max-height:155px; overflow:visible; margin-top:6px; }
+    .flight-svg .air { stroke:var(--accent); stroke-width:3; fill:none; stroke-dasharray:9 11; animation:flow 1.35s linear infinite; }
+    .flight-svg .air-core { stroke:var(--accent); stroke-width:1; opacity:.4; fill:none; }
+    #flightDiagramLabel { fill:var(--accent); }
+    .flight-caption { min-height:58px; margin:12px 0 0; color:var(--body-copy); font:500 17px/2 var(--serif); letter-spacing:.01em; }
+    .flight-facts { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); margin-top:18px; border:1px solid var(--line); }
+    .flight-fact { background:#171b1d; padding:13px; }
+    .flight-fact small { display:block; color:var(--muted); font-size:10px; letter-spacing:.1em; margin-bottom:6px; }
+    .flight-fact strong { color:var(--accent); font-size:14px; }
+    .flight-chapters { display:grid; gap:16px; }
+    .flight-chapter { border:1px solid var(--line); padding:26px; background:linear-gradient(135deg,#1d2224,#15191b); transition:border-color .25s,transform .25s; }
+    .flight-chapter.is-active { border-color:var(--accent); transform:translateX(-8px); }
+    .flight-chapter[data-mode="tesla"] { --accent:var(--tesla-accent); }
+    .flight-chapter[data-mode="alef"] { --accent:var(--alef-accent); }
+    .flight-chapter .mech-tag { color:var(--accent); }
+    .flight-chapter h3 { margin:10px 0 10px; font:500 clamp(23px,2.4vw,32px)/1.5 var(--serif); }
+    .flight-chapter p { margin:0; color:var(--body-copy); font-size:16px; line-height:2.1; letter-spacing:.01em; }
+    .chapter-index { color:var(--accent); font-size:10px; letter-spacing:.15em; margin-bottom:16px; }
+    .spacex-reference { grid-column:1/-1; display:grid; grid-template-columns:.85fr 1.15fr; align-items:center; gap:28px; padding:28px; border:1px solid rgba(255,116,122,.24); background:linear-gradient(120deg,#262226,#17191d); }
+    .spacex-reference h3 { margin:10px 0 12px; font:500 clamp(24px,3vw,38px)/1.5 var(--serif); letter-spacing:-.04em; }
+    .spacex-reference p { color:var(--body-copy); font-size:15px; line-height:2; margin:0; }
+    .spacex-photo { margin:0; min-width:0; }
+    .spacex-photo img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+    .spacex-photo figcaption { margin-top:10px; color:var(--muted); font-size:12px; line-height:1.8; }
+    .spacex-photo a { color:var(--link); text-underline-offset:3px; }
+    .mech-card { position:relative; border:1px solid var(--line); background:linear-gradient(150deg,#202629,#15191b 70%); padding:28px; min-height:470px; overflow:hidden; }
+    .mech-card.tesla { --accent:var(--tesla-accent); }
+    .mech-card.alef { --accent:var(--alef-accent); }
+    .mech-tag { color:var(--accent); font-size:11px; letter-spacing:.16em; }
+    .mech-card h3 { font:500 clamp(25px,3vw,38px)/1.5 var(--serif); margin:10px 0 8px; letter-spacing:-.04em; }
+    .mech-card p { max-width:420px; color:var(--body-copy); line-height:1.9; font-size:14px; margin:0; }
+    .mech-card .mech-story { max-width:620px; color:var(--body-copy); font-family:var(--serif); font-size:15px; line-height:2.05; margin:14px 0 0; }
+    .mech-card .mech-story + .mech-story { margin-top:10px; }
+    .diagram { width:100%; height:245px; margin-top:32px; }
+    .mech-card .flow { stroke:var(--accent); fill:none; stroke-width:2.5; stroke-dasharray:8 8; animation:flow 2.4s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .meme-media video { display:none; }
+    }
+    @keyframes flow { to { stroke-dashoffset:-32; } }
+    .compare-rail { margin-top:24px; display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--line); }
+    .compare-cell { padding:20px 16px 0 0; }
+    .compare-cell + .compare-cell { border-left:1px solid var(--line); padding-left:20px; }
+    .compare-cell strong { display:block; color:var(--accent); font-size:11px; letter-spacing:.1em; margin-bottom:8px; }
+    .compare-cell span { color:var(--body-copy); font-size:13px; line-height:1.8; }
+    .quote-section { max-width:1120px; text-align:center; padding-top:clamp(90px,14vw,180px); padding-bottom:clamp(90px,14vw,180px); }
+    .quote-mark { color:var(--tesla-accent); font:100px/1 var(--serif); height:65px; }
+    blockquote { margin:18px auto 24px; max-width:900px; font:500 clamp(25px,4.5vw,54px)/1.7 var(--serif); letter-spacing:-.05em; }
+    blockquote em { color:var(--alef-accent); font-style:normal; }
+    .quote-attribution { color:var(--muted); font-size:12px; line-height:1.8; }
+    .reality { background:#1a1f21; border-block:1px solid var(--line); }
+    .reality-grid { max-width:1320px; margin:auto; padding:clamp(64px,9vw,112px) 7vw; display:grid; grid-template-columns:.85fr 1.15fr; gap:8vw; align-items:start; }
+    .reality-grid h2 { font-size:clamp(30px,4vw,52px); }
+    .reality-list { list-style:none; margin:0; padding:0; }
+    .reality-list li { display:grid; grid-template-columns:115px 1fr; gap:20px; padding:25px 0; border-top:1px solid var(--line); line-height:2.05; font-size:16px; letter-spacing:.008em; }
+    .reality-list strong { color:var(--alef-accent); font-size:12px; letter-spacing:.08em; }
+    .closing { max-width:1100px; text-align:center; padding-top:clamp(100px,15vw,190px); padding-bottom:clamp(100px,15vw,190px); }
+    .closing h2 { font-size:clamp(34px,6vw,74px); }
+    .closing p { color:var(--muted); line-height:2.05; font-size:18px; letter-spacing:.01em; margin-top:32px; }
+    .source-footer { border-top:1px solid var(--line); padding:30px 7vw 40px; color:var(--muted); font:12px/2 var(--sans); letter-spacing:0; }
+    .source-footer-inner { max-width:1320px; margin:auto; display:flex; gap:32px; justify-content:space-between; }
+    .source-footer a { color:var(--link); text-decoration:underline; text-underline-offset:3px; }
+    .reveal { opacity:0; transform:translateY(24px); transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1); transition-delay:var(--reveal-delay,0ms); will-change:transform,opacity; }
+    .reveal.motion-zoom-in { transform:scale(.88); }
+    .reveal.motion-zoom-out { transform:scale(1.12); }
+    .reveal.motion-left { transform:translateX(-64px); }
+    .reveal.motion-right { transform:translateX(64px); }
+    .reveal.motion-pan-left { transform:translate(40px,18px) scale(.94); }
+    .reveal.motion-pan-right { transform:translate(-40px,18px) scale(.94); }
+    .masthead, .eyebrow, .num, .clip-label, .mech-tag, .chapter-index, .flight-visual-top, .flight-switch button, .flight-fact small, .compare-cell strong, .quote-attribution, .byline { font-family:var(--sans); }
+    .reveal.in-view { opacity:1; transform:translate(0,0) scale(1); }
+    @media (max-width:760px) {
+      .masthead { height:44px; padding:0 20px; font-size:10px; }
+      .masthead strong { font-size:14px; }
+      .hero { padding:34px 20px 24px; }
+      h1 { font-size:clamp(38px,10.7vw,54px); margin:15px 0 22px; line-height:1.48; letter-spacing:-.035em; }
+      .hero-video-caption { display:block; font-size:13px; line-height:1.95; padding-top:13px; }
+      .byline { margin-top:10px; font-size:10px; }
+      .section { padding:78px 22px; }
+      .section-head { grid-template-columns:42px 1fr; gap:12px; margin-bottom:28px; }
+      .num { padding-top:8px; font-size:10px; }
+      h2 { font-size:32px; line-height:1.48; }
+      .subhead { font-size:15px; line-height:2.05; letter-spacing:.008em; margin-top:16px; }
+      .clips { gap:16px; }
+      .meme-wall { grid-template-columns:1fr; gap:11px; }
+      .meme-tile, .meme-tile:nth-child(n) { grid-column:1; min-height:0; padding:0; }
+      .meme-tile.text-meme { padding:21px; min-height:190px; }
+      .meme-media { aspect-ratio:16/10; }
+      .meme-copy { padding:18px 19px 20px; gap:18px; }
+      .meme-tile h3 { font-size:25px; }
+      .meme-tile p { font-size:14px; line-height:1.95; }
+      .meme-tile blockquote { font-size:18px; }
+      .meme-tile .mini-art { right:16px; bottom:16px; width:54px; height:54px; font-size:20px; }
+      .meme-tile:nth-child(3) .mini-art { width:58px; height:58px; font-size:11px; }
+      .reveal.motion-left { transform:translateX(-28px); }
+      .reveal.motion-right { transform:translateX(28px); }
+      .reveal.motion-pan-left { transform:translate(20px,12px) scale(.96); }
+      .reveal.motion-pan-right { transform:translate(-20px,12px) scale(.96); }
+      .story-bridge { padding:18px 4px 8px; }
+      .clip-top { padding:15px 16px 12px; }
+      .clip-top h3 { font-size:20px; }
+      .clip-caption { min-height:0; padding:14px 16px 19px; font-size:13px; line-height:1.95; }
+      .stat-band { padding:60px 24px; background:linear-gradient(180deg,#f7e3e5 0 38%,#eaebfa 45% 100%); }
+      .stat-inner { display:block; }
+      .stat-number { font-size:clamp(92px,25vw,140px); margin-bottom:18px; }
+      .stat-copy h2 { color:#191a22; font-size:30px; }
+      .stat-copy p { font-size:16px; line-height:2.1; }
+      .mechanism-grid { grid-template-columns:1fr; gap:12px; }
+      .flight-lab { grid-template-columns:1fr; gap:18px; }
+      .flight-visual { position:relative; top:auto; min-height:0; padding:21px; }
+      .flight-tour { margin:14px 0 2px; padding:17px; }
+      .tour-heading strong { font-size:16px; }
+      .tour-track { margin:16px 0 12px; }
+      .tour-copy { font-size:13px; min-height:68px; }
+      .flight-svg { max-height:260px; }
+      .vehicle-shot { margin-top:4px; }
+      .flight-caption { font-size:15px; line-height:2; min-height:0; }
+      .flight-chapters { gap:10px; }
+      .flight-chapter { padding:21px; }
+      .flight-chapter p { font-size:15px; line-height:2.05; }
+      .flight-chapter.is-active { transform:none; }
+      .spacex-reference { grid-column:auto; grid-template-columns:1fr; padding:22px; gap:20px; }
+      .spacex-reference p { font-size:14px; }
+      .mech-card { padding:23px 20px; min-height:0; }
+      .mech-card h3 { font-size:27px; }
+      .mech-card p { font-size:13px; }
+      .diagram { height:200px; margin-top:22px; }
+      .compare-cell { padding-top:15px; }
+      .compare-cell + .compare-cell { padding-left:13px; }
+      .compare-cell span { font-size:12px; }
+      .quote-mark { font-size:74px; height:48px; }
+      blockquote { font-size:25px; line-height:1.75; }
+      .reality-grid { display:block; padding:72px 23px; }
+      .reality-grid h2 { margin-bottom:30px; font-size:32px; }
+      .reality-list li { grid-template-columns:88px 1fr; gap:12px; font-size:14px; line-height:2; padding:22px 0; }
+      .closing { padding:90px 22px; }
+      .closing h2 { font-size:38px; }
+      .closing p { font-size:16px; line-height:2; }
+      .source-footer { padding:25px 22px 32px; }
+      .source-footer-inner { display:block; }
+      .source-footer-inner > div + div { margin-top:14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *,*::before,*::after { scroll-behavior:auto!important; animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="read-progress" aria-hidden="true"><span></span></div>
+  <header class="masthead"><strong>아시아경제</strong><span>VISUAL NEWS · MOBILITY</span></header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">VISUAL NEWS · FLYING CARS</div>
+        <h1>우와!<br><em>감탄이 쏟아졌다</em></h1>
+      </div>
+      <div class="hero-video">
+        <iframe data-video="qt5p-_tE8d0" data-start="376" data-end="478" title="테슬라 로드스터 시연 장면 · 6분 16초부터 7분 58초까지" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="origin" allowfullscreen></iframe>
+      </div>
+      <div class="hero-video-caption"><span><b>차세대 테슬라 로드스터</b> · 2026년 10월 15일 공개. 회사는 2028년 양산 계획을 밝혔습니다.</span><span>영상: <a href="https://www.youtube.com/watch?v=qt5p-_tE8d0&amp;t=376s&amp;end=478" target="_blank" rel="noopener">Tesla 공식 YouTube 시연 장면 · 6분 16초부터 ↗</a></span></div>
+      <div class="byline">아시아경제 오현길·임주형 기자 기사 바탕</div>
+    </section>
+
+    <section class="section" id="videos">
+      <div class="section-head reveal">
+        <div class="num">01 / REACTION</div>
+      <div><h2>그런데 앞은 보일까?</h2><p class="subhead">하얀 기체를 뿜으며 공중에서 뒤집힌 로드스터. 시연 영상이 화제가 되자 온라인에는 고압 배관이 터지는 상황을 상상한 밈도 등장했습니다.</p></div>
+      </div>
+      <div class="clips">
+        <div class="meme-wall" aria-label="로드스터 시연을 둘러싼 온라인 밈 모음">
+          <article class="meme-tile reveal" data-number="01">
+            <a class="meme-media" href="https://x.com/AllGasSeo/status/2110912859895222293" target="_blank" rel="noopener" aria-label="Cole의 X 원문 밈 영상 보기">
+              <img src="https://pbs.twimg.com/tweet_video_thumb/HUt4DnGa4AABzip?format=webp&amp;name=large" alt="테슬라 로드스터의 기체 분사를 배관 파손 상황처럼 패러디한 영상 장면">
+              <video autoplay muted loop playsinline preload="metadata" poster="https://pbs.twimg.com/tweet_video_thumb/HUt4DnGa4AABzip?format=webp&amp;name=large" title="Cole이 올린 테슬라 고압 배관 밈 영상"><source src="https://video.twimg.com/tweet_video/HUt4DnGa4AABzip.mp4" type="video/mp4"></video>
+            </a>
+            <div class="meme-copy"><div><div class="meme-kind">01 · 정비 상상</div><h3>“고압 배관이 터진다면?”</h3><p>차 밑에서 기체가 뿜어져 나오는 장면은 정비 상황극 밈으로 번졌습니다.</p></div>
+              <blockquote>“POV: your Tesla’s pressurized line breaks”<cite>“테슬라 고압 배관이 터진다면?”<br><a href="https://x.com/AllGasSeo/status/2110912859895222293" target="_blank" rel="noopener">Cole (@AllGasSeo) · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+          <article class="meme-tile reveal" data-number="02">
+            <a class="meme-media" href="https://x.com/ProblyHQ/status/2110922349369495880" target="_blank" rel="noopener" aria-label="Probly의 X 밈 사진 보기"><img loading="lazy" src="https://pbs.twimg.com/media/HUuAsDtaEAArX0t?format=webp&amp;name=large" alt="하늘을 나는 차를 보고 놀란 경찰을 상상한 Probly의 밈 사진"></a>
+            <div class="meme-copy"><div><div class="meme-kind">02 · 단속 현장</div><h3>하늘에서 면허증 검사?</h3><p>교통경찰이 날아가는 차를 세우려다 말문이 막힌다는 설정.</p></div>
+              <blockquote>“Sir let me see your drivers license and registratiooooohhh my god”<cite><a href="https://x.com/ProblyHQ/status/2110922349369495880" target="_blank" rel="noopener">Probly (@ProblyHQ) · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+          <article class="meme-tile reveal" data-number="03">
+            <a class="meme-media" href="https://x.com/thexercisedude/status/2110929060591223265" target="_blank" rel="noopener" aria-label="Thexercisedude의 X 밈 사진 보기"><img loading="lazy" src="https://pbs.twimg.com/media/HUuGy1LWwAARFs8?format=webp&amp;name=large" alt="날아다니는 차를 위한 새 도로 표지판을 상상한 밈 사진"></a>
+            <div class="meme-copy"><div><div class="meme-kind">03 · 도로 표지판</div><h3>표지판도 새로 만들어야겠네</h3><p>킥플립 금지 표지판까지 상상한 반응.</p></div>
+              <blockquote>“New road signs in the making…”<cite><a href="https://x.com/thexercisedude/status/2110929060591223265" target="_blank" rel="noopener">Thexercisedude · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+          <article class="meme-tile text-meme reveal" data-number="04">
+            <div class="meme-copy"><div><div class="meme-kind">04 · 출근길 탈출 · 텍스트 밈</div><h3>왼쪽 차선이 답답할 때</h3><p>정체 구간에서 앞차를 훌쩍 넘는 상상으로 이어졌습니다.</p></div>
+              <blockquote>“When the Karen in the left lane is going 10 under”<cite><a href="https://x.com/HeyyBigGuy/status/2110906701327270160" target="_blank" rel="noopener">KINGPIN (@HeyyBigGuy) · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+          <article class="meme-tile reveal" data-number="05">
+            <a class="meme-media" href="https://x.com/MrSwitz71/status/2110934270584013256" target="_blank" rel="noopener" aria-label="MrSwitzTV의 X 밈 사진 보기"><img loading="lazy" src="https://pbs.twimg.com/media/HUuLiAeWkAArmE2?format=webp&amp;name=large" alt="공중에서 차가 뒤집히면 컵홀더의 커피가 어떻게 될지 표현한 밈 사진"></a>
+            <div class="meme-copy"><div><div class="meme-kind">05 · 커피의 운명</div><h3>커피는 착륙할 수 있을까?</h3><p>공중에서 차가 뒤집히는 동안 컵홀더 음료는 무사할지 걱정.</p></div>
+              <blockquote>“My $10 coffee after I skipped the intersection.”<cite><a href="https://x.com/MrSwitz71/status/2110934270584013256" target="_blank" rel="noopener">MrSwitzTV (@MrSwitz71) · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+          <article class="meme-tile reveal" data-number="06">
+            <a class="meme-media" href="https://x.com/Weyne_west/status/2110932061934498014" target="_blank" rel="noopener" aria-label="Karani의 X 보험료 밈 영상 보기">
+              <span class="media-fallback">영상이 표시되지 않으면 눌러서 X 원문 보기 ↗</span>
+              <img loading="lazy" src="https://pbs.twimg.com/tweet_video_thumb/HUuJeiiWAAAha0r?format=jpg&amp;name=large" alt="하늘 나는 차를 본 보험사의 반응을 패러디한 영상 장면">
+              <video autoplay muted loop playsinline preload="auto" title="Karani가 올린 자동차 보험 밈 영상"><source src="https://video.twimg.com/tweet_video/HUuJeiiWAAAha0r.mp4" type="video/mp4"></video>
+            </a>
+            <div class="meme-copy"><div><div class="meme-kind">06 · 보험료 걱정</div><h3>보험사는 벌써 계산 중</h3><p>비행까지 하는 차라면 보험료는 어떻게 될까, 현실적인 걱정도 따라붙었습니다.</p></div>
+              <blockquote>“Cars insurers right now”<cite><a href="https://x.com/Weyne_west/status/2110932061934498014" target="_blank" rel="noopener">Karani (@Weyne_west) · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+          <article class="meme-tile reveal" data-number="07">
+            <a class="meme-media" href="https://x.com/real_safespaces/status/2110913124924887539" target="_blank" rel="noopener" aria-label="Safe Spaces의 X 영화 패러디 밈 영상 보기">
+              <span class="media-fallback">영상이 표시되지 않으면 눌러서 X 원문 보기 ↗</span>
+              <img loading="lazy" src="https://pbs.twimg.com/tweet_video_thumb/HUt4S2KXUAAnIoU?format=jpg&amp;name=large" alt="하늘 나는 자동차를 영화 속 장면처럼 패러디한 밈 영상">
+              <video autoplay muted loop playsinline preload="auto" title="Safe Spaces가 올린 영화 패러디 밈 영상"><source src="https://video.twimg.com/tweet_video/HUt4S2KXUAAnIoU.mp4" type="video/mp4"></video>
+            </a>
+            <div class="meme-copy"><div><div class="meme-kind">07 · 영화 소환</div><h3>“백 투 더 퓨처”가 현실로?</h3><p>하늘을 나는 자동차에 영화 속 드로리안도 다시 소환됐습니다.</p></div>
+              <blockquote>미래로 가는 차가 드디어 현실에?<cite><a href="https://x.com/real_safespaces/status/2110913124924887539" target="_blank" rel="noopener">Safe Spaces (@real_safespaces) · X 원문 ↗</a></cite></blockquote></div>
+          </article>
+        </div>
+        <div class="story-bridge reveal"><span>MEANWHILE, IN THE SKY</span><h3>테슬라가 날자,<br>알레프는 그 위를 날았다</h3></div>
+        <article class="clip-card" data-clip="alef">
+          <div class="clip-top"><h3>알레프의 응수 · 수직 이륙</h3><span class="clip-label">ALEF AERONAUTICS</span></div>
+          <div class="clip-frame" data-video="stmWapR3CWY" data-title="Alef flying car flying over Tesla Roadster and Tesla Cybertruck" data-start="1">
+            <img src="https://img.youtube.com/vi/stmWapR3CWY/hqdefault.jpg" alt="알레프 플라잉카가 테슬라 로드스터 위를 나는 영상 미리보기">
+            <button class="play" aria-label="알레프 공식 비행 영상 1초부터 재생"></button>
+          </div>
+          <p class="clip-caption"><a href="https://www.youtube.com/watch?v=stmWapR3CWY" target="_blank" rel="noopener"><b>Alef Aeronautics 공식 영상</b></a> · 테슬라 로드스터 위를 비행하는 장면을 1초부터 재생합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="stat-band">
+      <div class="stat-inner reveal">
+        <div class="stat-number">1000<small>번째</small></div>
+        <div class="stat-copy"><div class="eyebrow">ALEF · 1000TH FLIGHT</div><h2>11년을 먼저 날아온<br>알레프의 응수</h2><p>알레프는 이번 비행을 자사의 1000번째 기록이라고 소개했습니다. 짐 두코브니 CEO는 “경쟁은 좋은 일이고, 특히 테슬라 같은 대기업이 경쟁에 뛰어드는 건 더욱 그렇다”고 밝혔습니다.</p></div>
+      </div>
+    </section>
+
+    <section class="section mechanism" id="how">
+      <div class="section-head reveal">
+        <div class="num">02 / HOW</div>
+        <div><h2>두 차는<br>어떻게 날까</h2><p class="subhead">테슬라는 압축공기를 노즐로 뿜고, 알레프는 전기 추진기로 공기를 밀어 올립니다.</p></div>
+      </div>
+      <div class="flight-lab">
+        <div class="flight-visual" data-mode="tesla" aria-live="polite">
+          <div class="flight-visual-top"><span>FLIGHT LAB · AIRFLOW</span><strong id="flightLabel">TESLA / ROADSTER</strong></div>
+          <div class="flight-switch" role="group" aria-label="비행 방식 비교">
+            <button type="button" data-flight="tesla" aria-pressed="true">테슬라 로드스터</button>
+            <button type="button" data-flight="alef" aria-pressed="false">알레프 플라잉카</button>
+          </div>
+          <div class="flight-tour" aria-live="polite">
+            <div class="tour-heading"><span id="tourKicker">TESLA · 01</span><strong id="tourTitle">공기를 압축해 싣고</strong></div>
+            <div class="tour-track" role="group" aria-label="테슬라 3단계와 알레프 3단계 비행 방식 설명">
+              <button type="button" data-tour-step="0" aria-label="테슬라 1단계: 공기 저장" aria-current="step">01</button>
+              <button type="button" data-tour-step="1" aria-label="테슬라 2단계: 노즐 분사">02</button>
+              <button type="button" data-tour-step="2" aria-label="테슬라 3단계: 도약과 회전">03</button>
+<button type="button" data-tour-step="3" aria-label="알레프 1단계: 전기 추진기">01</button>
+<button type="button" data-tour-step="4" aria-label="알레프 2단계: 수직 이륙">02</button>
+<button type="button" data-tour-step="5" aria-label="알레프 3단계: 비행">03</button>
+            </div>
+            <p class="tour-copy" id="tourCopy">압축공기 탱크 두 기에 공기를 채워 싣습니다.</p>
+            <div class="tour-actions"><button type="button" id="tourPrev" disabled>← 이전</button><span id="tourCounter">01 / 03</span><button type="button" id="tourNext">다음 장면 →</button></div>
+          </div>
+          <figure class="vehicle-shot">
+            <img id="vehiclePhoto" src="https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv?format=webp&amp;name=large" alt="테슬라 로드스터가 시연용 경사로 앞에 선 장면">
+            <figcaption id="vehicleCredit">Tesla 공식 영상 캡처 · <a href="https://x.com/Tesla/status/2110913438293647789" target="_blank" rel="noopener">Roadster 시연 영상</a></figcaption>
+          </figure>
+          <svg class="flight-svg" viewBox="0 0 520 180" role="img" aria-label="테슬라 로드스터 압축공기 추진 개념도">
+            <text id="flightDiagramLabel" x="260" y="21" text-anchor="middle" font-family="sans-serif" font-size="11" letter-spacing="2">AIRFLOW · DOWNWARD THRUST</text>
+            <g id="teslaFlow"><path class="air" d="M205 40 L205 140"/><path class="air" d="M260 40 L260 158"/><path class="air" d="M315 40 L315 140"/><path class="air-core" d="M226 40 L226 130 M294 40 L294 130"/></g>
+            <g id="alefRotors" hidden><path class="air" d="M100 40 L100 130"/><path class="air" d="M145 40 L145 144"/><path class="air" d="M190 40 L190 136"/><path class="air" d="M235 40 L235 156"/><path class="air" d="M280 40 L280 156"/><path class="air" d="M325 40 L325 136"/><path class="air" d="M370 40 L370 144"/><path class="air" d="M415 40 L415 130"/><path class="air-core" d="M118 40 L118 122 M172 40 L172 126 M352 40 L352 126 M397 40 L397 122"/></g>
+          </svg>
+          <p class="flight-caption" id="flightCaption">압축공기를 아래로 분사해 순간 추력을 만듭니다. 시연 영상에서는 공중에서 뒤집고 착지했습니다.</p>
+          <div class="flight-facts"><div class="flight-fact"><small id="factLabelA">공기 탱크</small><strong id="factValueA">600ℓ · 2기</strong></div><div class="flight-fact"><small id="factLabelB">분사구</small><strong id="factValueB">노즐 10개</strong></div></div>
+        </div>
+        <div class="flight-chapters">
+          <article class="flight-chapter is-active" data-mode="tesla" tabindex="0">
+            <div class="chapter-index">01 · TESLA ROADSTER</div><div class="mech-tag">압축공기를 뿜어</div>
+            <h3>순간적으로<br>차를 밀어 올린다</h3>
+            <p>탄소섬유 압력 용기 2기에 담긴 공기 600ℓ를 10개 노즐로 분사합니다. 테슬라는 정지 상태에서 시속 96㎞까지 0.81초, 공중 도약과 회전 기동을 공개했습니다. 차체 아래 팬은 노면에 차를 붙여 주행을 돕습니다.</p>
+          </article>
+          <article class="flight-chapter" data-mode="alef" tabindex="0">
+            <div class="chapter-index">02 · ALEF MODEL A</div><div class="mech-tag">전기 추진기로 들어 올려</div>
+            <h3>수직으로 뜨고<br>하늘을 가로지른다</h3>
+            <p>알레프는 차체 안의 전기 추진기로 공기를 밀어 수직 이륙합니다. 테슬라가 짧은 공중 기동을 선보였다면, 알레프는 도로 주행과 비행을 함께 하는 플라잉카를 내세웁니다. 회사는 이번 장면을 1000번째 비행이라고 소개했습니다.</p>
+          </article>
+        </div>
+      </div>
+
+    </section>
+
+    
+
+    <section class="section closing reveal">
+      <div class="eyebrow">TWO WAYS TO FLY</div>
+      <h2>압축공기를 뿜는 로드스터,<br>전기 추진기로 뜨는 플라잉카.</h2>
+      <p>순간 추력을 뿜는 로드스터와 수직으로 떠오르는 알레프.<br>하늘을 나는 차, 어느 쪽이 먼저 현실이 될까요?</p>
+    </section>
+  </main>
+  <footer class="source-footer">
+    <div class="source-footer-inner">
+      <div>원문 기사: <a href="https://view.asiae.co.kr/article/2026101611043600463" target="_blank" rel="noopener">아시아경제 · 오현길 기자</a> · <a href="https://www.asiae.co.kr/article/2026101919122751153" target="_blank" rel="noopener">아시아경제 · 임주형 기자</a></div>
+      <div>공식 설명: <a href="https://www.tesla.com/roadster" target="_blank" rel="noopener">Tesla Roadster</a><br>영상·사진 출처: <a href="https://www.youtube.com/watch?v=stmWapR3CWY" target="_blank" rel="noopener">Alef Aeronautics 공식 Roadster 비행 비교 영상 및 단계별 캡처</a> · <a href="https://www.youtube.com/watch?v=qt5p-_tE8d0&amp;t=376s&amp;end=478" target="_blank" rel="noopener">Tesla 공식 Roadster 시연 영상</a></div>
+    </div>
+  </footer>
+  <script>
+    const motionSequence = ['motion-zoom-in','motion-left','motion-pan-right','motion-zoom-out','motion-right','motion-pan-left'];
+    document.querySelectorAll('.reveal').forEach((el, index) => {
+      el.classList.add(motionSequence[index % motionSequence.length]);
+      const siblings = [...el.parentElement.querySelectorAll(':scope > .reveal')];
+      el.style.setProperty('--reveal-delay', Math.min(siblings.indexOf(el) * 75, 300) + 'ms');
+    });
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    const progressBar = document.querySelector('.read-progress span');
+    let progressQueued = false;
+    function updateReadProgress() {
+      if (progressQueued) return;
+      progressQueued = true;
+      requestAnimationFrame(() => {
+        const span = document.documentElement.scrollHeight - innerHeight;
+        progressBar.style.width = (span > 0 ? (scrollY / span) * 100 : 0) + '%';
+        progressQueued = false;
+      });
+    }
+    addEventListener('scroll', updateReadProgress, { passive: true });
+    addEventListener('resize', updateReadProgress);
+    updateReadProgress();
+
+    const youtubeCanEmbed = location.protocol === 'http:' || location.protocol === 'https:';
+    const heroYoutube = document.querySelector('.hero-video iframe[data-video]');
+    if (youtubeCanEmbed && heroYoutube) {
+      const heroUrl = new URL('https://www.youtube.com/embed/' + heroYoutube.dataset.video);
+      heroUrl.searchParams.set('autoplay', '1');
+      heroUrl.searchParams.set('mute', '1');
+      heroUrl.searchParams.set('playsinline', '1');
+      heroUrl.searchParams.set('rel', '0');
+      heroUrl.searchParams.set('start', heroYoutube.dataset.start || '376');
+      if (heroYoutube.dataset.end) heroUrl.searchParams.set('end', heroYoutube.dataset.end);
+      heroUrl.searchParams.set('origin', location.origin);
+      heroYoutube.src = heroUrl.toString();
+    } else if (heroYoutube) {
+      const directLink = document.createElement('a');
+      directLink.className = 'local-video-link';
+      directLink.href = 'https://www.youtube.com/watch?v=' + encodeURIComponent(heroYoutube.dataset.video) + '&t=' + encodeURIComponent(heroYoutube.dataset.start || '376') + 's' + (heroYoutube.dataset.end ? '&end=' + encodeURIComponent(heroYoutube.dataset.end) : '');
+      directLink.target = '_blank';
+      directLink.rel = 'noopener';
+      directLink.innerHTML = '<span>TESLA · ROADSTER EVENT</span><strong>테슬라 로드스터 발표 영상 보기</strong><small>재생 버튼을 누르면 YouTube에서 전체 발표를 처음부터 볼 수 있습니다 ↗</small>';
+      document.querySelector('.hero-video').replaceChildren(directLink);
+    }
+
+    document.querySelectorAll('.clip-frame').forEach(frame => {
+      const playButton = frame.querySelector('.play');
+      if (!playButton) return;
+      playButton.title = 'YouTube 영상 재생';
+      playButton.addEventListener('click', () => {
+        if (!youtubeCanEmbed) {
+          window.open('https://www.youtube.com/watch?v=' + encodeURIComponent(frame.dataset.video), '_blank', 'noopener');
+          return;
+        }
+        const playerUrl = new URL('https://www.youtube.com/embed/' + frame.dataset.video);
+        playerUrl.searchParams.set('autoplay', '1');
+        playerUrl.searchParams.set('mute', '1');
+        playerUrl.searchParams.set('playsinline', '1');
+        playerUrl.searchParams.set('rel', '0');
+        if (frame.dataset.start) playerUrl.searchParams.set('start', frame.dataset.start);
+        playerUrl.searchParams.set('origin', location.origin);
+        const iframe = document.createElement('iframe');
+        iframe.src = playerUrl.toString();
+        iframe.title = frame.dataset.title;
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.referrerPolicy = 'origin';
+        iframe.allowFullscreen = true;
+        frame.replaceChildren(iframe);
+      });
+    });
+
+    const flightVisual = document.querySelector('.flight-visual');
+    const flightButtons = [...document.querySelectorAll('[data-flight]')];
+    const flightChapters = [...document.querySelectorAll('.flight-chapter')];
+    const flightContent = {
+      tesla: {
+        label: 'TESLA / ROADSTER',
+        caption: '압축공기를 아래로 분사해 순간 추력을 만듭니다. 시연 영상에서는 공중에서 뒤집고 착지했습니다.',
+        a: ['공기 탱크', '600ℓ · 2기'], b: ['분사구', '노즐 10개'],
+        diagram: 'COMPRESSED AIR · THRUST',
+        aria: '테슬라 로드스터의 압축공기 분사 개념도',
+        photo: 'https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv?format=webp&name=large',
+        alt: '테슬라 로드스터가 시연용 경사로 앞에 선 장면',
+        sourceLabel: '영상 캡처',
+        credit: '<a href="https://x.com/Tesla/status/2110913438293647789" target="_blank" rel="noopener">Tesla 공식 X · Roadster 시연 영상</a>'
+      },
+      alef: {
+        label: 'ALEF / MODEL A',
+        caption: '차체 안 전기 추진기가 공기를 아래로 밀어 차를 수직으로 띄웁니다.',
+        a: ['추진 방식', '전기 추진기'], b: ['시연 기록', '1000번째 비행'],
+        diagram: 'ELECTRIC PROPULSION · LIFT',
+        aria: '알레프 전기 추진기에서 공기가 아래로 흐르는 개념도',
+        photo: 'https://img.youtube.com/vi/stmWapR3CWY/sd1.jpg',
+        alt: '알레프 Model A가 비행을 시작하는 장면',
+        sourceLabel: '영상 캡처',
+        credit: '<a href="https://www.youtube.com/watch?v=stmWapR3CWY" target="_blank" rel="noopener">Alef Aeronautics 공식 영상 캡처</a>'
+      }
+    };
+    const tourSteps = [
+      { mode:'tesla', label:'TESLA · 01', title:'공기를 압축해 싣고', copy:'탄소섬유 압력 용기 두 기에 공기 600ℓ를 담습니다.', photo:'https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv?format=webp&name=large', alt:'테슬라 로드스터가 시연용 경사로 앞에 선 장면', sourceLabel:'영상 캡처', credit:'<a href="https://x.com/Tesla/status/2110913438293647789" target="_blank" rel="noopener">Tesla 공식 X · Roadster 시연 영상</a>' },
+      { mode:'tesla', label:'TESLA · 02', title:'10개 노즐로 뿜어', copy:'압축공기를 아래로 분사해 순간 추력을 만듭니다.', photo:'https://pbs.twimg.com/media/HUtxs8lbgAANwn3?format=webp&name=large', alt:'테슬라가 공개한 새 로드스터의 차체와 바퀴', sourceLabel:'사진', credit:'<a href="https://x.com/Tesla/status/2110907035571401174" target="_blank" rel="noopener">Tesla 공식 X · Roadster 외관</a>' },
+      { mode:'tesla', label:'TESLA · 03', title:'공중에서 뒤집고 착지', copy:'테슬라 시연은 로드스터의 짧은 도약과 회전 기동을 보여줬습니다.', photo:'https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU?format=webp&name=large', alt:'테슬라 로드스터가 다른 차량 위로 도약하는 시연 장면', sourceLabel:'영상 캡처', credit:'<a href="https://x.com/Tesla/status/2110926164306931860" target="_blank" rel="noopener">Tesla 공식 X · Do a kickflip! 영상</a>' },
+      { mode:'alef', label:'ALEF · 01', title:'차체 안 추진기가 돌고', copy:'알레프 Model A는 차체 내부 전기 추진기로 공기를 밀어 올립니다.', photo:'https://img.youtube.com/vi/stmWapR3CWY/sd1.jpg', alt:'알레프 Model A가 비행을 시작하는 장면', sourceLabel:'영상 캡처', credit:'<a href="https://www.youtube.com/watch?v=stmWapR3CWY" target="_blank" rel="noopener">Alef Aeronautics 공식 영상 캡처</a>' },
+      { mode:'alef', label:'ALEF · 02', title:'수직으로 떠오른 뒤', copy:'도로에서 달리던 차가 위로 뜨는 수직 이륙 방식입니다.', photo:'https://img.youtube.com/vi/stmWapR3CWY/sd2.jpg', alt:'알레프 Model A가 공중에 떠오른 장면', sourceLabel:'영상 캡처', credit:'<a href="https://www.youtube.com/watch?v=stmWapR3CWY" target="_blank" rel="noopener">Alef Aeronautics 공식 영상 캡처</a>' },
+      { mode:'alef', label:'ALEF · 03', title:'하늘을 가로지른다', copy:'알레프 공식 영상은 Model A가 차량 위를 지나 비행하는 장면을 담았습니다.', photo:'https://img.youtube.com/vi/stmWapR3CWY/sd3.jpg', alt:'알레프 Model A가 시험장 위를 날아 내려오는 장면', sourceLabel:'영상 캡처', credit:'<a href="https://www.youtube.com/watch?v=stmWapR3CWY" target="_blank" rel="noopener">Alef Aeronautics 공식 영상 캡처</a>' }
+    ];
+    let activeTourStep = 0;
+    function setTourStep(index, syncMode=true) {
+      const nextIndex = Math.max(0, Math.min(tourSteps.length - 1, index));
+      const step = tourSteps[nextIndex];
+      if (syncMode && flightVisual.dataset.mode !== step.mode) setFlightMode(step.mode, false);
+      activeTourStep = nextIndex;
+      flightVisual.dataset.stage = String(nextIndex % 3);
+      const vehiclePhoto = document.getElementById('vehiclePhoto');
+      vehiclePhoto.classList.remove('is-changing');
+      vehiclePhoto.src = step.photo;
+      vehiclePhoto.alt = step.alt;
+      document.getElementById('vehicleCredit').innerHTML = step.sourceLabel + ': ' + step.credit;
+      requestAnimationFrame(() => vehiclePhoto.classList.add('is-changing'));
+      document.getElementById('tourKicker').textContent = step.label;
+      document.getElementById('tourTitle').textContent = step.title;
+      document.getElementById('tourCopy').textContent = step.copy;
+      const localStep = (nextIndex % 3) + 1;
+      document.getElementById('tourCounter').textContent = String(localStep).padStart(2,'0') + ' / 03';
+      document.getElementById('tourPrev').disabled = nextIndex === 0;
+      document.getElementById('tourNext').disabled = nextIndex === tourSteps.length - 1;
+      document.querySelectorAll('[data-tour-step]').forEach(button => {
+        if (Number(button.dataset.tourStep) === nextIndex) button.setAttribute('aria-current','step');
+        else button.removeAttribute('aria-current');
+      });
+    }
+    function setFlightMode(mode, syncTour=true) {
+      const data = flightContent[mode];
+      if (!data) return;
+      flightVisual.dataset.mode = mode;
+      document.getElementById('flightLabel').textContent = data.label;
+      document.getElementById('flightCaption').textContent = data.caption;
+      document.getElementById('factLabelA').textContent = data.a[0];
+      document.getElementById('factValueA').textContent = data.a[1];
+      document.getElementById('factLabelB').textContent = data.b[0];
+      document.getElementById('factValueB').textContent = data.b[1];
+      document.getElementById('flightDiagramLabel').textContent = data.diagram;
+      document.querySelector('.flight-svg').setAttribute('aria-label', data.aria);
+      const vehiclePhoto = document.getElementById('vehiclePhoto');
+      vehiclePhoto.src = data.photo;
+      vehiclePhoto.alt = data.alt;
+      document.getElementById('vehicleCredit').innerHTML = data.sourceLabel + ': ' + data.credit;
+      document.getElementById('teslaFlow').hidden = mode !== 'tesla';
+      document.getElementById('alefRotors').hidden = mode !== 'alef';
+      flightButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.flight === mode)));
+      flightChapters.forEach(chapter => chapter.classList.toggle('is-active', chapter.dataset.mode === mode));
+      if (syncTour) {
+        const targetStep = mode === 'tesla' ? 0 : 3;
+        if (tourSteps[activeTourStep].mode !== mode) setTourStep(targetStep, false);
+      }
+    }
+    flightButtons.forEach(button => button.addEventListener('click', () => setTourStep(button.dataset.flight === 'tesla' ? 0 : 3)));
+    document.querySelectorAll('[data-tour-step]').forEach(button => button.addEventListener('click', () => setTourStep(Number(button.dataset.tourStep))));
+    document.getElementById('tourPrev').addEventListener('click', () => setTourStep(activeTourStep - 1));
+    document.getElementById('tourNext').addEventListener('click', () => setTourStep(activeTourStep + 1));
+    flightChapters.forEach(chapter => {
+      chapter.addEventListener('click', () => setFlightMode(chapter.dataset.mode));
+      chapter.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          setFlightMode(chapter.dataset.mode);
+        }
+      });
+    });
+    const chapterObserver = new IntersectionObserver(entries => {
+      entries.filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)
+        .forEach(entry => setFlightMode(entry.target.dataset.mode));
+    }, { threshold: [0.45, 0.7] });
+    flightChapters.forEach(chapter => chapterObserver.observe(chapter));
+    document.querySelectorAll('.meme-tile[data-number="06"] video, .meme-tile[data-number="07"] video').forEach(video => {
+      video.muted = true;
+      video.loop = true;
+      video.playsInline = true;
+      video.preload = 'auto';
+      const displayFrame = () => { if (video.readyState >= 2) video.classList.add('is-ready'); };
+      const tryPlay = () => {
+        const pending = video.play();
+        if (pending && typeof pending.catch === 'function') pending.then(displayFrame).catch(() => video.classList.remove('is-ready'));
+      };
+      video.addEventListener('loadeddata', displayFrame);
+      video.addEventListener('playing', displayFrame);
+      video.addEventListener('error', () => video.classList.remove('is-ready'));
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) tryPlay();
+          else video.pause();
+        });
+      }, { threshold: 0.15 });
+      observer.observe(video);
+      if (video.readyState >= 2) displayFrame();
+    });
+    setTourStep(0);
+
+
+  </script>
+</body>
+</html>
